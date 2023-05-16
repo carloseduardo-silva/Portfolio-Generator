@@ -247,3 +247,24 @@ label{
     
 }
 
+@media (max-height:670px){
+    div#container{
+        height: 95vh;
+    }
+
+    div#picture img{
+        height: 95vh;
+    }
+}
+
+@media (max-height:555px){
+    div#container{
+        height: 100vh;
+    }
+
+    div#picture img{
+        height: 100vh;
+    }
+}
+
+

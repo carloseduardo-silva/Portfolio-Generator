@@ -75,7 +75,7 @@ div#content-2{
 
   h3{
     text-align: center;
-    margin: 2vh;
+    margin: 2vh 2vh 3vh 2vh;
 
   }
 
@@ -108,6 +108,9 @@ input{
     padding: 0.65rem 0.85rem ;
     border-radius: 4px;
 }
+input:hover{
+    background-color: rgba(240, 240, 240, 0.763);
+}
 
 input.input-image{
     padding: 0px;
@@ -125,6 +128,8 @@ label{
 #buttons{
     display: flex;
     justify-content: center;
+    position: relative;
+    top: 5.5vh;
     
     
 }
@@ -145,3 +150,100 @@ label{
 #buttons button:hover{
     background-color: #817cef;
 }
+
+@media screen and (min-height: 760px){
+    #buttons{
+        top: 6.2vh;
+    }
+
+    h3{
+        margin: 6.4vh 2vh 3vh 2vh;
+    }
+    .form header{
+        margin-bottom: 2rem;
+    }
+
+    div.input-box input{
+        padding: 1rem 0.85rem;;
+    }
+
+    div#content-2 input{
+        margin: 0.5rem 0.5rem 2.5rem 0.5rem;
+    }
+}
+
+
+@media screen and (max-width: 1240px) {
+    div#picture{
+        display: none;
+    }
+    
+    div#container{
+        width: 50%;
+    }
+    
+    div.form{
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 1000px){
+    div#container{
+        width: 60%;
+        height: 80vh;
+        
+    }
+}
+
+
+@media screen and (max-width: 820px){
+    div#container{
+        width: 85%;
+        height: 82vh;
+        
+    }
+    div.form{
+        padding: 1rem 0px;
+        
+        align-items: center;
+    }
+    
+    div#content{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        max-height: 10rem;
+        overflow-y: scroll;
+        padding-right: 2.5rem;
+        
+    }
+    div#content::-webkit-scrollbar-thumb{
+        background-color: #6c63ff;
+    }
+    
+    div#content-2{
+        flex-direction: column;
+    }
+    h3{
+        margin: 5.3vh 7.5vh 3vh 7.5vh
+    }
+    
+}
+@media screen and (min-height:1000px) {
+    div#container{
+        height: 750px;
+    }
+
+    div#picture img{
+        height: 750px;
+    }
+    
+}
+
+@media  (min-width: 1500px) {
+    div.form{
+        padding: 2rem 4rem 0rem 4rem
+    }
+    
+}
+

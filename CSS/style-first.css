@@ -267,4 +267,16 @@ label{
     }
 }
 
+@media (max-width:550px) {
+    #buttons{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 1vh;
+        
+        
+    }
+    
+}
+
 

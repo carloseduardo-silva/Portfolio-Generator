@@ -253,6 +253,13 @@ label{
     
 }
 
+@media (min-width:700px) {
+    #buttons button a {
+        padding: 0rem 40%;
+    }
+    
+}
+
 @media (max-height:670px){
     div#container{
         height: 95vh;

@@ -145,6 +145,7 @@ label{
 #buttons button a {
     text-decoration: none;
     color: white;
+    
 }
 
 #buttons button:hover{
@@ -153,7 +154,7 @@ label{
 
 @media screen and (min-height: 760px){
     #buttons{
-        top: 6.2vh;
+        top: 5vh;
     }
 
     h3{
@@ -217,10 +218,7 @@ label{
         padding-right: 2.5rem;
         
     }
-    div#content::-webkit-scrollbar-thumb{
-        background-color: #6c63ff;
-    }
-    
+
     div#content-2{
         flex-direction: column;
     }
@@ -243,6 +241,13 @@ label{
 @media  (min-width: 1500px) {
     div.form{
         padding: 2rem 4rem 0rem 4rem
+    }
+    
+}
+
+@media (min-width:700px) {
+    #buttons button a {
+        padding: 0rem 40%;
     }
     
 }

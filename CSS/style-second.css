@@ -230,9 +230,7 @@ label{
         padding-right: 1.5rem;
         
     }
-    div#content::-webkit-scrollbar-thumb{
-        background-color: #6c63ff;
-    }
+
     
     div#content-2{
         flex-direction: column;
@@ -244,9 +242,36 @@ label{
     input.input-form{
         margin: 0.7rem 0.8rem 0.7rem 0.8rem;
       }
-   
+   }
+    
+    
+
+@media (max-width:550px) {
+    #buttons{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 0.7vh;
+            
+            
+}}
+
+
+@media  (min-width: 1500px) {
+    div.form{
+        padding: 2rem 4rem 0rem 4rem
+    }
     
 }
+
+@media (min-width:700px) {
+    #buttons button a {
+        padding: 0rem 40%;
+    }
+    
+}
+
+
 @media screen and (min-height:1000px) {
     div#container{
         height: 750px;
@@ -254,13 +279,6 @@ label{
 
     div#picture img{
         height: 750px;
-    }
-    
-}
-
-@media  (min-width: 1500px) {
-    div.form{
-        padding: 2rem 4rem 0rem 4rem
     }
     
 }
@@ -285,14 +303,4 @@ label{
     }
 }
 
-@media (max-width:550px) {
-    #buttons{
-        display: flex;
-        justify-content: center;
-        position: relative;
-        top: 0.7vh;
-        
-        
-    }
     
-}

@@ -1,0 +1,295 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #0c0ce94d;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div#container{
+    
+    height: 85vh;
+    width: 80%;
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.300);
+    
+    
+}
+div#picture{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem ;
+    background-color: white;
+    
+}
+div#picture img {
+    width: 40vw;
+    height: 85vh;
+}
+
+div.form{
+    width: 50%;
+    display: flex;
+    background-color: #fff;
+    flex-direction: column;
+    padding: 2rem 2rem 0rem 2rem;
+}
+
+.form header{
+    margin-bottom: 1rem;
+    display: flex;
+}
+
+.form header h1::after{
+    content: '';
+    display: block;
+    width: 11rem;
+    height: 0.16rem;
+    background-color: #6c63ff;
+    margin: 4px auto;
+    border-radius: 3px;
+}
+    
+
+
+
+h3{
+    text-align: center;
+    margin: 3vh 2vh 4vh 2vh;
+    
+}
+
+div#div-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+h4{
+    margin: 5px;
+}
+
+div#content-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+  
+  }
+
+div#content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+div.input-group{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+   
+  }
+  input.input-form{
+    margin: 0.5rem 1rem 0.5rem 0rem;
+  }
+
+input{
+    border-color: white;
+    border-style: none;
+    box-shadow: 1px 1px 3px rgba(79, 79, 79, 0.674);
+    margin-bottom: 0.75rem;
+    margin-top: 0.35rem;
+    padding: 0.65rem 0.85rem ;
+    border-radius: 4px;
+}
+input:hover{
+    background-color: rgba(240, 240, 240, 0.763);
+}
+
+input.input-image{
+    padding: 0px;
+    height: auto;
+    padding-right: 7px;
+    padding-left: 1.5px;
+}
+
+label{
+    font-size: 0.80rem;
+    font-weight: 600;
+}
+
+
+#buttons{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 8.7vh;
+    
+    
+}
+
+#buttons button{
+    width: 30vw;
+    padding: 0.3rem 0rem;
+    background-color: #6c63ff;
+    border-radius: 4px;
+    border: none;
+  
+}
+#buttons button a {
+    text-decoration: none;
+    color: white;
+}
+
+#buttons button:hover{
+    background-color: #817cef;
+}
+
+@media screen and (min-height: 840px){
+    #buttons{
+        top: 3.2vh;
+    }
+
+    h3{
+        text-align: center;
+        margin: 2.8vh 2vh 3vh 2vh;
+    }
+    .form header{
+        margin-bottom: 1.2rem;
+    }
+
+    div.input-box input{
+        padding: 1rem 0.85rem;;
+    }
+
+    div#content-2 input{
+        margin: 0.5rem 0.5rem 2.5rem 0.5rem;
+    }
+}
+
+
+@media screen and (max-width: 1300px) {
+    div#picture{
+        display: none;
+    }
+    
+    div#container{
+        width: 50%;
+    }
+    
+    div.form{
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 1027px){
+    div#container{
+        width: 60%;
+        height: 80vh;
+        
+    }
+}
+
+
+@media screen and (max-width: 860px){
+    div#container{
+        width: 85%;
+        height: 82vh;
+        
+    }
+    div.form{
+        padding: 1rem 0px;
+        
+        align-items: center;
+    }
+    
+  
+    
+ 
+    h3{
+        margin: 3vh 7.5vh 3vh 7.5vh
+    }
+
+    input.input-form{
+        margin: 0.7rem 0.8rem 0.7rem 0.8rem;
+      }
+   
+    
+}
+@media screen and (min-height:1000px) {
+    div#container{
+        height: 750px;
+    }
+
+    div#picture img{
+        height: 750px;
+    }
+    
+}
+
+@media  (min-width: 1500px) {
+    div.form{
+        padding: 2rem 4rem 0rem 4rem
+    }
+    
+}
+
+@media (max-height:670px){
+    div#container{
+        height: 95vh;
+    }
+
+    div#picture img{
+        height: 95vh;
+    }
+}
+
+@media (max-height:555px){
+    div#container{
+        height: 100vh;
+    }
+
+    div#picture img{
+        height: 100vh;
+    }
+}
+
+@media (max-width:550px) {
+    #buttons{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 5vh;
+        
+        
+    }
+
+    div#content-2{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        max-height: 10rem;
+        overflow-y: scroll;
+        padding-right: 1.5rem;
+        
+    }
+    
+}

@@ -46,7 +46,7 @@ div#header-content{
 }
 h3{
     font-family: Arial, Helvetica, sans-serif;
-
+    
 }
 
 h1{
@@ -55,14 +55,35 @@ h1{
     font-family: Arial, Helvetica, sans-serif;
 
 }
+
+p{
+    color: rgba(193, 205, 215, 0.912);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 div.buttons{
     display: flex;
     justify-content: flex-start;
     gap: 2rem;
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
 
 div.buttons a {
     text-decoration: none;
     color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a.portfolio-button{
+    background-color: #8741f1;
+    color: white;
+    padding: 0.8rem 0.9rem 0.7rem 0.9rem;
+}
+
+a.contato-button{
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    padding: 0.7rem 0.9rem;
 }

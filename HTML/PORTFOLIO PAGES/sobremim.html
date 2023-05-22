@@ -9,23 +9,27 @@
     <title>Document</title>
 </head>
 <body>
-    <nav>    
-        <h2> Carlos Eduardo </h2>
+    <nav>
+        <div class="menu-hamburgue">
+            <h2> Carlos Eduardo </h2>
+            
+            <div class="menu-button" onclick="menuHamburguer()">
+                <span class="material-symbols-outlined">
+                    menu
+                </span>
+            </div>
+        </div>
 
-        
-        <div id="menu"> 
+        <div id="menu" class=""> 
             <a href="portfolio.html"> Portifólio </a>
             <a href="sobremim.html"> Sobre </a>
-            <a href="#"> Currículo </a>
-            <a href="#"> Contato </a>
-            
+            <a href="curriculo.html"> Currículo </a>
+            <a href="contato.html"> Contato </a>
+    
+          
         </div>
+        
     </nav>
-    <div class="menu-button" onclick="menuHambuguer()">
-        <span class="material-symbols-outlined">
-            menu
-            </span>
-    </div>
     
     <header> 
 
@@ -47,8 +51,9 @@
             </p>
         </div>
         
-        <footer> desenvolvido por  @kaduu.silvas</footer>
     </div>
+    <footer> desenvolvido por  @kaduu.silvas</footer>
 
 </body>
+<script src="/JS/script-portfolio.js"></script>
 </html>

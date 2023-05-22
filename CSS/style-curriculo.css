@@ -66,35 +66,8 @@ header span {
     font-size: 17px;
 }
 
-#container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-   
-    
-   
-}
-.content{
-    max-width:380px;
-    padding: 2rem 0rem 3rem 0rem;
-}
-.content h2{
-    color: #8741f1;
-    margin-top: 2rem;
-    font-weight: bold;
-    font-size: 27px;
-}
 
-.content p{
-    font-weight:400 ;
-    color: rgba(47, 45, 45, 0.93);
-    font-family: 'Roboto Condensed';
-    line-height: 1.7rem;
-    font-size: 17px;
-   
 
-}
 
 footer{
     background-color: rgba(0, 0, 0, 0.900);
@@ -104,7 +77,6 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0px;
 }
 
 div.menu-button{
@@ -167,7 +139,6 @@ div.menu-button{
     header{
         height: 270px;
     }
-
     nav{
         padding: 0.5rem 1.5rem;
     }

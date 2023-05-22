@@ -40,8 +40,7 @@ header{
     height: 400px;
     display: flex;
     align-items: center;
-    position: fixed;
-    z-index: 2;
+    
 }
 
 div#header-content{
@@ -102,15 +101,30 @@ div.menu-button{
     
 }
 
-div#menu2.none {
-    display: none;
-
+div#container{
+    display: flex;
+    height: 400px;
+    pad: 2rem;
 }
+
+footer{
+    background-color: rgba(0, 0, 0, 0.900);
+    color: white;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 
 
 @media (max-width:850px) {
     div#menu{
+        display: none;
+    }
+    .none{
         display: none;
     }
     
@@ -120,27 +134,44 @@ div#menu2.none {
         color: #8741f1;
     }
     
-    div#menu2.menu-open{
+    div#menu.menu-open{
         display: flex;
         text-decoration: none;
         background-color: white;
         flex-direction: column;
         padding: 2rem;
-        width: 600px;
+        width: 75%;
         flex-wrap: wrap;
-        z-index: 0;
-    
-    
+        position: fixed;
+        top: 0.5rem;
+        left: auto;
+        right: auto;
+        z-index: 3;
+        margin: 5rem 0rem;
+        border-top: 3px solid #8741f1;
+        font-weight: bolder;
     }
-    div#menu2.menu-open a {
-        text-decoration: none;
-        color: ;
+    
+    div#menu.menu-open a{
+        padding: 1rem;
+        border-radius: 5px;
+        margin: 0.2rem;
+        transition: 700ms;
     }
 
-    nav{
+    div#menu.menu-open a:hover{
+        background-color: rgba(248, 248, 248, 0.962);
+       
+    }
+    .menu-hamburgue{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
         justify-content: space-between;
     }
-    
+
+  
     
 }
 

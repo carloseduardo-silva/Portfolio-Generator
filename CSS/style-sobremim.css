@@ -1,0 +1,122 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+nav{
+    background-color: rgba(0, 0, 0, 0.900);
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5rem;
+}
+nav div#menu a {
+    text-decoration: none;
+    margin: 1rem;
+    color: grey;
+    transition: 700ms;
+}
+nav div#menu a:hover{
+    color: #8741f1;
+    cursor: pointer;
+ }
+
+ 
+ 
+nav h2{
+     color: rgba(159, 159, 194, 0.701);
+     font-family: Arial, Helvetica, sans-serif;
+     transition: 700ms;
+    }
+    
+nav h2:hover{
+       color: #8741f1;
+}
+
+header{
+    background-color:  rgba(0, 0, 0, 0.900);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 170px;
+    color: white;
+    padding-bottom: 2.4rem;
+    
+}
+
+h1{
+    margin: 0.3rem;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+header span {
+    color: rgba(243, 240, 234, 0.908);
+    font-weight: lighter;
+    font-size: 17px;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+.content{
+    max-width:380px;
+    padding: 2rem 0rem 3rem 0rem;
+}
+.content h2{
+    color: #8741f1;
+    margin-top: 2rem;
+    font-weight: bold;
+    font-size: 27px;
+}
+
+.content p{
+    font-weight:400 ;
+    color: rgba(47, 45, 45, 0.93);
+    font-family: 'Roboto Condensed';
+    line-height: 1.7rem;
+    font-size: 17px;
+   
+
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.900);
+    color: white;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.menu-button{
+    display: none;
+
+}
+
+div.menu-open{
+    display: flex;
+}
+
+@media (max-width:850px) {
+    div#menu{
+        display: none;
+    }
+    
+}

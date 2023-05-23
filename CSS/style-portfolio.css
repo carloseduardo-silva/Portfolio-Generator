@@ -29,9 +29,6 @@ nav h2 {
     font-family: Arial, Helvetica, sans-serif;
     transition: 700ms;
 }
-nav h2:hover{
-    background-color: #8741f1;
-}
 
 header{
     background-color: rgba(0, 0, 0, 0.970);

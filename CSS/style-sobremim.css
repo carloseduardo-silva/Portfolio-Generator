@@ -40,6 +40,7 @@ nav h2{
     
 nav h2:hover{
        color: #8741f1;
+       cursor: pointer;
 }
 
 header{

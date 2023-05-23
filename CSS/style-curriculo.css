@@ -31,15 +31,17 @@ nav div#menu a:hover{
  }
 
  
- 
 nav h2{
      color: rgba(159, 159, 194, 0.701);
      font-family: Arial, Helvetica, sans-serif;
      transition: 700ms;
+     text-decoration: none;
     }
+    
     
 nav h2:hover{
        color: #8741f1;
+       cursor: pointer;
 }
 
 header{
@@ -65,6 +67,128 @@ header span {
     font-weight: lighter;
     font-size: 17px;
 }
+
+div#container{
+    background-color: rgba(224, 224, 224, 0.671);
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+   
+}
+
+div.introdução{
+    background-color: white;
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0.5rem 5rem 2.5rem 5rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+
+}
+
+img{
+    width: 180px;
+    border-radius: 50%;
+    margin: 1rem;
+    border: 2px solid rgba(201, 198, 198, 0.833);
+    transition: 600ms;
+}
+
+img:hover{
+    border: 2px solid #8741f1;
+}
+
+div.icons{
+    margin: 0.4rem 0rem 0.6rem 0rem;
+}
+
+div.icons i {
+    padding: 0rem 0.5rem;
+    transition: 400ms;
+    color: black;
+    
+    
+}
+
+div.icons i:hover{
+    cursor: pointer;
+    color: #8741f1;
+}
+
+button.contato{
+    background-color: #8741f1;
+    border: none;
+    padding: 0.8rem;
+    box-shadow: 3px 5px 15px #ac48e777;
+    border-radius: 2px;
+    margin-top: 1rem;
+    transition: 320ms;
+
+}
+
+button.contato:hover{
+    box-shadow: none;
+    
+    padding: 1rem;
+    background-color: #6e34c4;
+   
+   
+}
+
+button.contato a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+   
+}
+
+p{
+    text-align: center;
+}
+
+h2.titulo{
+    margin: 3rem 0rem 3rem 0rem;
+}
+
+div.exp-profissional{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    max-width: 1100px;
+    margin-bottom: 3.2rem;
+}
+
+div.exp-example{
+    max-width: 350px;
+}
+
+p.exp{
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -141,6 +265,22 @@ div.menu-button{
     }
     nav{
         padding: 0.5rem 1.5rem;
+    }
+
+    div.exp-profissional{
+        gap: 1rem;
+    }
+
+    h2{
+        margin: 2rem;
+    }
+    
+}
+
+@media (min-width: 1300px) {
+
+    div.introdução{
+        max-width: 880px;
     }
     
 }
